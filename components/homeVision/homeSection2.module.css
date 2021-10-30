@@ -1,0 +1,131 @@
+.container {
+  padding: 5rem 0;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  max-width: 1400px;
+  z-index: 2;
+}
+.content {
+  max-width: 900px;
+}
+.content .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--background-color);
+  margin-bottom: 3rem;
+}
+.content p {
+  margin-top: 01rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--background-color);
+  font-size: 1.4rem;
+}
+.quote {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.quote p {
+  font-family: "Poppins", sans-serif;
+  color: var(--background-color);
+  opacity: 0.7;
+  font-size: 1.3rem;
+  max-width: 900px;
+  line-height: 2rem;
+  position: relative;
+  z-index: 2;
+}
+.quote p span {
+  font-size: 3rem;
+}
+.backImage {
+  font-family: "Poppins", sans-serif;
+  font-size: 18rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: var(--text-color);
+  text-shadow: -5px 5px 10px #a3a3a32c;
+}
+
+/*movation Quote*/
+.motivationQuote {
+  position: relative;
+  display: flex;
+  width: 40rem;
+  color: var(--background-color);
+  padding: 3rem;
+  border-radius: 2rem;
+  margin: 7rem auto 0 auto;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.123);
+}
+.imageSide {
+  position: relative;
+}
+.imageSide .icon svg {
+  width: 13rem;
+  fill: var(--background-color);
+  opacity: 0.9;
+}
+.imageSide .name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+.imageSide .name span:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: var(--background-color);
+}
+.imageSide .name span:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: var(--background-color);
+  opacity: 0.7;
+  letter-spacing: 0.2rem;
+}
+.contentSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0 auto 3rem;
+}
+.contentSide p {
+  line-height: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: var(--background-color);
+}
+.contentSide p:nth-child(2) {
+  width: 100%;
+  text-align: end;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: var(--background-color);
+  opacity: 0.7;
+}
+.featherIcon {
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(30%, -30%);
+}
+.featherIcon svg {
+  height: 70%;
+  fill: var(--p-color);
+}
